@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lista de tarefas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <span class="tag">commit a3f9c21</span>
+  <h1>Lista de tarefas</h1>
+  <p class="sub">Crie, conclua, edite e exclua tarefas. Tudo fica salvo no seu navegador.</p>
+
+  <form id="form">
+    <input type="text" id="novo" placeholder="Nova tarefa…" maxlength="200" autocomplete="off" aria-label="Nova tarefa">
+    <button class="btn" type="submit">Adicionar</button>
+  </form>
+
+  <ul id="lista"></ul>
+
+  <footer>
+    <span id="contador"></span>
+    <button id="limpar" type="button">Limpar concluídas</button>
+  </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
